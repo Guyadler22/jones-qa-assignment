@@ -6,9 +6,6 @@ playwright-report/
 test-results/
 .playwright/
 
-# Screenshots (generated at runtime)
-screenshots/
-
 # TypeScript build output
 dist/
 
@@ -18,3 +15,6 @@ dist/
 
 # macOS
 .DS_Store
+
+# Claude Code
+.claude/
