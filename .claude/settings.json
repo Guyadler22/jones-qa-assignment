@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:test.netlify.app)",
+      "Bash(mkdir -p \"/Users/guyadler/Library/Mobile Documents/com~apple~CloudDocs/jones - Qa assignment/pages\" \"/Users/guyadler/Library/Mobile Documents/com~apple~CloudDocs/jones - Qa assignment/tests\" \"/Users/guyadler/Library/Mobile Documents/com~apple~CloudDocs/jones - Qa assignment/screenshots\")",
+      "Bash(npx playwright *)",
+      "Bash(npx ts-node *)"
+    ],
+    "additionalDirectories": [
+      "/Users/guyadler/Library/Mobile Documents/com~apple~CloudDocs/jones - Qa assignment"
+    ]
+  }
+}

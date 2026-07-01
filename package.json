@@ -1,0 +1,15 @@
+{
+  "name": "jones-qa-assignment",
+  "version": "1.0.0",
+  "description": "Playwright automation framework for Jones QA assignment",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}

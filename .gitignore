@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Playwright output
+playwright-report/
+test-results/
+.playwright/
+
+# Screenshots (generated at runtime)
+screenshots/
+
+# TypeScript build output
+dist/
+
+# Environment variables
+.env
+.env.local
+
+# macOS
+.DS_Store
